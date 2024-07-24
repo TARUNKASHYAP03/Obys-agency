@@ -1,0 +1,13 @@
+Final Project
+->Obys Agency
+
+1. First make a loader div
+    ->class line
+        h1
+    repeat line 3 time 
+
+    Font Downlaod and convert wolf to ttf
+
+    set the loader h1 content on postion
+
+    apply gsap
