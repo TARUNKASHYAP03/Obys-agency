@@ -65,6 +65,19 @@ html,body{
     animation-iteration-count: infinite;
 }
 
+.line #para{
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+}
+
+
+.line p{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
 @keyframes anime{
     0%{
         font-family: Plain Light;

@@ -1,6 +1,6 @@
 let tl = gsap.timeline();
 
-tl.from(".line h1", {
+tl.from(".line h1,p", {
   y: 150,
   stagger: 0.45,
   duration: 0.6,
