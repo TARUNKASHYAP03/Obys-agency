@@ -35,7 +35,7 @@ html,body{
 .line{
     /* background-color: red; */
     color: #fff;
-    height: fit-content;
+    height: auto;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -123,14 +123,14 @@ html,body{
 
 #main{
     position: relative;
-    background-color: #030303;
+    background-color: #030303ef;
 }
 
 #page1{
     height: 100vh;
     width: 100%;
     color: #fff;
-    background-color: #0b0b0b;
+    background-color: rgba(8, 8, 8,);
 }
 
 #page1 #navbar{
@@ -155,7 +155,7 @@ html,body{
 .center{
     width: 72%;
     margin-left: 27%;
-    height: fit-content;
+    height: auto;
     /* background-color: red; */
     overflow: hidden;
     display: flex;
@@ -178,15 +178,81 @@ html,body{
     text-decoration: underline;
 }
 
-.center h2, .center h3{
+.center h2{
     font-size: 7vw;
     line-height: 7vw;
     font-weight: 600;
     text-transform: uppercase;
+    border-bottom: 0.5vw solid #fff;
+    padding-bottom: 0.7vw;
+    /* transition: all ease-in-out 0.3s; */
 }
 
 .center h2:hover{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
     font-weight: 500;
+    border-bottom: 0.5vw solid #000;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    padding-top: 16vh;
+    position: relative;
+    /* background-color: red; */
+}
+
+#video{
+    height: 60vh;
+    width: 68vw;
+    position: relative;
+    left: 30%;
+}
+
+#video img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute
+}
+
+#video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+#video-crsr{
+    background-color: #ffa63d;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -14%;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+#video-crsr i{
+    font-size: 2vw;
+    color: #fff;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #000000b9;
+}
+
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #000000e3;
 }
