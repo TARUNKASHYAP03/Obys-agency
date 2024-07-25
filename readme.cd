@@ -11,3 +11,24 @@ Final Project
     set the loader h1 content on postion
 
     apply gsap
+    gsap cdn
+
+2. Make a page 1 after show loader
+    ->Make a nav-bar
+    ->attach web site logo online link
+    ->link favicon
+    ->Write a page 1 center code
+
+3. Make a cursor
+    ->Create a div with 50% raduis id="#crsr"
+    ->Create a hover effect on navbar
+    ->use a Sheryjs
+    ->attach css or js link of Sheryjs in index.html
+    ->Magnet effect use through the Sheryjs
+
+4. Make a page 2
+    ->Create div for a img or video
+    ->create a play button on div
+
+5. Make a page 4 first , page 3 crete after
+    
