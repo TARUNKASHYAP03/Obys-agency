@@ -31,7 +31,7 @@ function loaderAnimation() {
   tl.to("#loader", {
     opacity: 0,
     duration: 0.3,
-    delay: 0.1,
+    delay: 2,
   });
 
   tl.from("#page1", {
