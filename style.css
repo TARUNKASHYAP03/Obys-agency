@@ -229,7 +229,7 @@ body {
 }
 
 #nav-part2 h4 {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 
@@ -939,7 +939,7 @@ body {
         -webkit-box-pack: end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
-        padding: 2.3vw 5vw;
+        padding: 4.3vw 5vw;
         position: fixed;
         width: 100%;
         /* background-color: red; */
